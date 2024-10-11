@@ -1,0 +1,877 @@
+[   
+    {
+        "question": "¿Qué anotación se utiliza para definir una clase de configuración en Spring?",
+        "choice1": "@Component",
+        "choice2": "@Configuration",
+        "choice3": "@Service",
+        "choice4": "@Repository",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué método se utiliza para deshabilitar CSRF en la configuración de seguridad de Spring?",
+        "choice1": "http.disableCsrf()",
+        "choice2": "http.csrf().enable()",    
+        "choice3": "http.csrf().disable()",
+        "choice4": "http.enableCsrf()",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para habilitar la seguridad web en una aplicación Spring?",
+        "choice1": "@EnableWebMvc",
+        "choice2": "@EnableSecurity",
+        "choice3": "@EnableWebSecurity",
+        "choice4": "@EnableWebSocket",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué clase se utiliza para cifrar contraseñas en Spring Security?",
+        "choice1": "StandardPasswordEncoder",
+        "choice2": "PasswordEncoder",
+        "choice3": "Pbkdf2PasswordEncoder",
+        "choice4": "BCryptPasswordEncoder",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué método se utiliza para agregar un filtro antes de UsernamePasswordAuthenticationFilter en Spring Security?",
+        "choice1": "http.addFilterAt()",
+        "choice2": "http.addFilterAfter()",
+        "choice3": "http.addFilter()",
+        "choice4": "http.addFilterBefore()",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un punto final de WebSocket en Spring?",
+        "choice1": "@WebSocket",
+        "choice2": "@EnableWebSocket",
+        "choice3": "@WebSocketEndpoint",
+        "choice4": "@EnableWebSocketMessageBroker",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué método se utiliza para registrar un punto final de STOMP en Spring?",
+        "choice1": "registry.addEndpoint()",
+        "choice2": "registry.registerEndpoint()",
+        "choice3": "registry.addStompEndpoint()",
+        "choice4": "registry.registerStompEndpoint()",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un controlador REST en Spring?",
+        "choice1": "@RestEndpoint",
+        "choice2": "@Controller",
+        "choice3": "@RestController",
+        "choice4": "@RestService",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué método se utiliza para manejar solicitudes POST en un controlador Spring?",
+        "choice1": "@RequestPost",
+        "choice2": "@RequestMapping",
+        "choice3": "@PostRequest",
+        "choice4": "@PostMapping",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué clase se utiliza para generar un token JWT en Spring Security?",
+        "choice1": "JwtTokenService",
+        "choice2": "JwtTokenGenerator",
+        "choice3": "JwtTokenProvider",
+        "choice4": "JwtTokenFactory",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué método se utiliza para autenticar un usuario en Spring Security?",
+        "choice1": "authenticationManager.authenticate()",
+        "choice2": "authenticationManager.login()",
+        "choice3": "authenticationManager.signIn()",
+        "choice4": "authenticationManager.auth()",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para inyectar una dependencia en Spring?",
+        "choice1": "@Autowired",
+        "choice2": "@Inject",
+        "choice3": "@Resource",
+        "choice4": "@Qualifier",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué método se utiliza para permitir solicitudes de origen cruzado (CORS) en Spring?",
+        "choice1": "registry.allowCors()",
+        "choice2": "registry.allowOrigins()",
+        "choice3": "registry.enableCors()", 
+        "choice4": "registry.addMapping()",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir una clase de servicio en Spring?",
+        "choice1": "@Repository",
+        "choice2": "@Component",
+        "choice3": "@Service",
+        "choice4": "@Controller",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un repositorio en Spring?",
+        "choice1": "@Repository",
+        "choice2": "@Service",
+        "choice3": "@Component",
+        "choice4": "@Controller",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué método se utiliza para configurar el prefijo de destino de la aplicación en WebSocket?",
+        "choice1": "config.setDestinationPrefixes()",
+        "choice2": "config.setAppDestinationPrefixes()",    
+        "choice3": "config.setApplicationDestinationPrefixes()",
+        "choice4": "config.setAppPrefixes()",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja mensajes en WebSocket?",
+        "choice1": "@MessageHandler",
+        "choice2": "@MessageMapping",
+        "choice3": "@WebSocketMapping",
+        "choice4": "@WebSocketHandler",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué método se utiliza para enviar un mensaje a un destino en WebSocket?",
+        "choice1": "messagingTemplate.convert()",
+        "choice2": "messagingTemplate.send()",
+        "choice3": "messagingTemplate.convertAndSend()",
+        "choice4": "messagingTemplate.sendMessage()",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes GET en Spring?",
+        "choice1": "@RequestMapping",
+        "choice2": "@GetMapping",
+        "choice3": "@GetRequest",
+        "choice4": "@RequestGet",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PUT en Spring?",
+        "choice1": "@PutRequest",
+        "choice2": "@RequestMapping",
+        "choice3": "@PutMapping",
+        "choice4": "@RequestPut",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes DELETE en Spring?",
+        "choice1": "@RequestDelete",
+        "choice2": "@RequestMapping",
+        "choice3": "@DeleteRequest",
+        "choice4": "@DeleteMapping",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@RequestPatch",
+        "choice2": "@RequestMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@PatchMapping",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@RequestOptions",
+        "choice2": "@OptionsMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice4": "@OptionsRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@RequestHead",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice4": "@HeadRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@RequestTrace",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.TRACE)",
+        "choice4": "@TraceRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+        "choice1": "@ConnectRequest",
+        "choice2": "@ConnectMapping",
+        "choice3": "@RequestConnect",
+        "choice4": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@RequestPatch",
+        "choice2": "@RequestMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@PatchMapping",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@OptionsRequest",
+        "choice2": "@OptionsMapping",
+        "choice3": "@RequestOptions",
+        "choice4": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@RequestHead",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice4": "@HeadRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@TraceRequest",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestTrace",
+        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?", 
+        "choice1": "@ConnectMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "choice3": "@RequestConnect",
+        "choice4": "@ConnectRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@PatchMapping",
+        "choice2": "@RequestMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@RequestPatch",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice2": "@OptionsMapping",
+        "choice3": "@RequestOptions",
+        "choice4": "@OptionsRequest",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@HeadRequest",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestHead",
+        "choice4": "@RequestMapping(method = RequestMethod.HEAD)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@TraceRequest",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestTrace",
+        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+        "choice1": "@ConnectRequest",
+        "choice2": "@ConnectMapping",
+        "choice3": "@RequestConnect",
+        "choice4": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",   
+        "choice1": "@RequestMapping",
+        "choice2": "@PatchMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@RequestPatch",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@OptionsRequest",
+        "choice2": "@OptionsMapping",
+        "choice3": "@RequestOptions",
+        "choice4": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@HeadMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice3": "@RequestHead",
+        "choice4": "@HeadRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@TraceRequest",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestTrace",
+        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+        "choice1": "@ConnectMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "choice3": "@RequestConnect",
+        "choice4": "@ConnectRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@RequestMapping",
+        "choice2": "@PatchMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@RequestPatch",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice2": "@OptionsMapping",
+        "choice3": "@RequestOptions",
+        "choice4": "@OptionsRequest",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@HeadMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice3": "@RequestHead",
+        "choice4": "@HeadRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@TraceRequest",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestTrace",
+        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+        "choice1": "@RequestConnect",
+        "choice2": "@ConnectMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "choice4": "@ConnectRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@RequestPatch",
+        "choice2": "@RequestMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@PatchMapping",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@OptionsMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice3": "@RequestOptions",
+        "choice4": "@OptionsRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@RequestHead",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice4": "@HeadRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@TraceRequest",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestTrace",
+        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+        "choice1": "@ConnectMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "choice3": "@RequestConnect",
+        "choice4": "@ConnectRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",  
+        "choice1": "@RequestMapping",
+        "choice2": "@PatchMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@RequestPatch",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@OptionsMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice3": "@RequestOptions",
+        "choice4": "@OptionsRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestHead",
+        "choice4": "@HeadRequest",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",  
+        "choice1": "@TraceMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.TRACE)",
+        "choice3": "@RequestTrace",
+        "choice4": "@TraceRequest",
+        
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir una clase de configuración en Spring?", 
+        "choice1": "@Repository",
+        "choice2": "@Component",
+        "choice3": "@Service",
+        "choice4": "@Configuration",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué método se utiliza para deshabilitar CSRF en la configuración de seguridad de Spring?",
+        "choice1": "http.disableCsrf()",
+        "choice2": "http.csrf().enable()",
+        "choice3": "http.csrf().disable()",
+        "choice4": "http.enableCsrf()",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para habilitar la seguridad web en una aplicación Spring?",    
+        "choice1": "@EnableSecurity",
+        "choice2": "@EnableWebSecurity",
+        "choice3": "@EnableWebMvc",
+        "choice4": "@EnableWebSocket",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué clase se utiliza para cifrar contraseñas en Spring Security?",   
+        "choice1": "PasswordEncoder",
+        "choice2": "BCryptPasswordEncoder",
+        "choice3": "Pbkdf2PasswordEncoder",
+        "choice4": "StandardPasswordEncoder",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué método se utiliza para agregar un filtro antes de UsernamePasswordAuthenticationFilter en Spring Security?",      
+        "choice1": "http.addFilterAfter()",
+        "choice2": "http.addFilterBefore()",
+        "choice3": "http.addFilter()",
+        "choice4": "http.addFilterAt()",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un punto final de WebSocket en Spring?",
+        "choice1": "@WebSocket",
+        "choice2": "@EnableWebSocket",
+        "choice3": "@WebSocketEndpoint",    
+        "choice4": "@EnableWebSocketMessageBroker",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué método se utiliza para registrar un punto final de STOMP en Spring?",       
+        "choice1": "registry.registerEndpoint()",
+        "choice2": "registry.addEndpoint()",
+        "choice3": "registry.addStompEndpoint()",
+        "choice4": "registry.registerStompEndpoint()",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un controlador REST en Spring?",
+        "choice1": "@RestService",
+        "choice2": "@Controller",
+        "choice3": "@RestEndpoint",
+        "choice4": "@RestController",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué método se utiliza para manejar solicitudes POST en un controlador Spring?",
+        "choice1": "@PostMapping",
+        "choice2": "@RequestMapping",
+        "choice3": "@PostRequest",
+        "choice4": "@RequestPost",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué clase se utiliza para generar un token JWT en Spring Security?",   
+        "choice1": "JwtTokenGenerator",
+        "choice2":"JwtTokenProvider",
+        "choice3": "JwtTokenService",
+        "choice4": "JwtTokenFactory",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué método se utiliza para autenticar un usuario en Spring Security?",
+        "choice1": "authenticationManager.auth()",
+        "choice2": "authenticationManager.login()",
+        "choice3": "authenticationManager.signIn()", 
+        "choice4": "authenticationManager.authenticate()",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para inyectar una dependencia en Spring?",
+        "choice1": "@Resource",
+        "choice2": "@Inject",
+        "choice3": "@Autowired",
+        "choice4": "@Qualifier",
+        
+        "answer": 3
+    },
+    {
+        "question": "¿Qué método se utiliza para permitir solicitudes de origen cruzado (CORS) en Spring?",
+        "choice1": "registry.enableCors()",
+        "choice2": "registry.allowOrigins()",
+        "choice3": "registry.addMapping()",
+        "choice4": "registry.allowCors()",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir una clase de servicio en Spring?",
+        "choice1": "@Service",
+        "choice2": "@Component",
+        "choice3": "@Repository",
+        "choice4": "@Controller",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un repositorio en Spring?",
+        "choice1": "@Component",
+        "choice2": "@Service",
+        "choice3": "@Repository",
+        "choice4": "@Controller",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué método se utiliza para configurar el prefijo de destino de la aplicación en WebSocket?",
+        "choice1": "config.setApplicationDestinationPrefixes()",
+        "choice2": "config.setAppDestinationPrefixes()",
+        "choice3": "config.setDestinationPrefixes()",
+        "choice4": "config.setAppPrefixes()",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja mensajes en WebSocket?",   
+        "choice1": "@MessageHandler",
+        "choice2": "@MessageMapping",
+        "choice3": "@WebSocketMapping",
+        "choice4": "@WebSocketHandler",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué método se utiliza para enviar un mensaje a un destino en WebSocket?",
+        "choice1": "messagingTemplate.convertAndSend()",
+        "choice2": "messagingTemplate.send()",
+        "choice3": "messagingTemplate.convert()",
+        "choice4": "messagingTemplate.sendMessage()",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes GET en Spring?", 
+        "choice1": "@RequestMapping",
+        "choice2": "@GetMapping",
+        "choice3": "@GetRequest",
+        "choice4": "@RequestGet",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PUT en Spring?", 
+        "choice1": "@RequestMapping",
+        "choice2": "@PutMapping",
+        "choice3": "@PutRequest",
+        "choice4": "@RequestPut",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes DELETE en Spring?",
+        "choice1": "@DeleteRequest",
+        "choice2": "@RequestMapping",
+        "choice3": "@DeleteMapping",
+        "choice4": "@RequestDelete",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@PatchRequest",
+        "choice2": "@RequestMapping",  
+        "choice3": "@PatchMapping",
+        "choice4": "@RequestPatch",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",  
+        "choice1": "@OptionsMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice3": "@RequestOptions",
+        "choice4": "@OptionsRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestHead",
+        "choice4": "@HeadRequest",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@RequestMapping(method = RequestMethod.TRACE)",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestTrace",
+        "choice4": "@TraceRequest",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+        "choice1": "@RequestConnect",
+        "choice2": "@ConnectMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "choice4": "@ConnectRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?", 
+        "choice1": "@RequestMapping",
+        "choice2": "@PatchMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@RequestPatch",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@OptionsMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice3": "@RequestOptions",
+        "choice4": "@OptionsRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@RequestHead",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice4": "@HeadRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@RequestTrace",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.TRACE)",
+        "choice4": "@TraceRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?", 
+        "choice1": "@ConnectMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "choice3": "@RequestConnect",
+        "choice4": "@ConnectRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@PatchRequest",
+        "choice2": "@RequestMapping",
+        "choice3": "@PatchMapping",
+        "choice4": "@RequestPatch",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@RequestOptions",
+        "choice2": "@OptionsMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice4": "@OptionsRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",   
+        "choice1": "@HeadMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice3": "@RequestHead",
+        "choice4": "@HeadRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@RequestMapping(method = RequestMethod.TRACE)",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestTrace",
+        "choice4": "@TraceRequest",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+        "choice1": "@ConnectRequest",
+        "choice2": "@ConnectMapping",
+        "choice3": "@RequestConnect",
+        "choice4": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",   
+        "choice1": "@RequestMapping",
+        "choice2": "@PatchMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@RequestPatch",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@OptionsRequest",
+        "choice2": "@OptionsMapping",
+        "choice3": "@RequestOptions",
+        "choice4": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@HeadRequest",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestHead",
+        "choice4": "@RequestMapping(method = RequestMethod.HEAD)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",   
+        "choice1": "@TraceMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.TRACE)",
+        "choice3": "@RequestTrace",
+        "choice4": "@TraceRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+        "choice1": "@ConnectMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "choice3": "@RequestConnect",
+        "choice4": "@ConnectRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@PatchRequest",
+        "choice2": "@RequestMapping",
+        "choice3": "@PatchMapping",
+        "choice4": "@RequestPatch",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice2": "@OptionsMapping",
+        "choice3": "@RequestOptions",
+        "choice4": "@OptionsRequest",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@HeadRequest",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestHead",
+        "choice4": "@RequestMapping(method = RequestMethod.HEAD)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@TraceRequest",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestTrace",
+        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+        "choice1": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "choice2": "@ConnectMapping",
+        "choice3": "@RequestConnect",
+        "choice4": "@ConnectRequest",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@RequestPatch",
+        "choice2": "@RequestMapping",
+        "choice3": "@PatchRequest",
+        "choice4": "@PatchMapping",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+        "choice1": "@RequestOptions",
+        "choice2": "@OptionsMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice4": "@OptionsRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",  
+        "choice1": "@HeadMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice3": "@RequestHead",
+        "choice4": "@HeadRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+        "choice1": "@RequestTrace",
+        "choice2": "@TraceMapping",
+        "choice3": "@RequestMapping(method = RequestMethod.TRACE)",
+        "choice4": "@TraceRequest",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?", 
+        "choice1": "@ConnectMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
+        "choice3": "@RequestConnect",
+        "choice4": "@ConnectRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+        "choice1": "@PatchRequest",
+        "choice2": "@RequestMapping",
+        "choice3": "@PatchMapping",
+        "choice4": "@RequestPatch",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",   
+        "choice1": "@OptionsMapping",
+        "choice2": "@RequestMapping(method = RequestMethod.OPTIONS)",
+        "choice3": "@RequestOptions",
+        "choice4": "@OptionsRequest",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+        "choice1": "@RequestMapping(method = RequestMethod.HEAD)",
+        "choice2": "@HeadMapping",
+        "choice3": "@RequestHead",
+        "choice4": "@HeadRequest",
+        "answer": 1
+    }
+]
+    
