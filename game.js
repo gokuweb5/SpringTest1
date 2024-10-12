@@ -5,11 +5,15 @@ const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 const loader = document.getElementById("loader");
 const game = document.getElementById("game");
+const timerElement = document.getElementById("time");
+
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+let timer;
+let timeLeft = 30 * 60; // 30 minutes in seconds
 
 let questions = [];
 
@@ -26,12 +30,13 @@ fetch("questions.json")
 
 // CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 109; // cambiado de 3 a 109
+const MAX_QUESTIONS = 111; // cambiado de 3 a 111
 
 startGame = () => {
   questionCounter = 0;
   score = 0;
   availableQuestions = [...questions];
+  startTimer();
   getNewQuestion();
   game.classList.remove("hidden");
   loader.classList.add("hidden");
@@ -88,4 +93,19 @@ choices.forEach(choice => {
 incrementScore = num => {
   score += num;
   scoreText.innerText = score;
+};
+
+startTimer = () => {
+  clearInterval(timer);
+  timer = setInterval(() => {
+    timeLeft--;
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+    timerElement.innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      localStorage.setItem("mostRecentScore", score);
+      return window.location.assign("/end.html");
+    }
+  }, 1000);
 };
