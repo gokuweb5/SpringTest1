@@ -208,11 +208,11 @@
         "answer": 4
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
-        "choice1": "@RequestPatch",
-        "choice2": "@RequestMapping",
-        "choice3": "@PatchRequest",
-        "choice4": "@PatchMapping",
+        "question": "¿Qué biblioteca Spring se necesita en su classpath para escribir una aplicación web Spring completa?",
+        "choice1": "spring-core.jar es suficiente",
+        "choice2": "spring-core.jar y spring-context.jar son suficientes",
+        "choice3": "spring-web.jar es suficiente",
+        "choice4": "spring-webmvc.jar es imprescindible porque ahí es donde se encuentra la clase DispatcherServlet",
         "answer": 4
     },
     {
@@ -224,12 +224,12 @@
         "answer": 4
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
-        "choice1": "@RequestHead",
-        "choice2": "@HeadMapping",
-        "choice3": "@RequestMapping(method = RequestMethod.HEAD)",
-        "choice4": "@HeadRequest",
-        "answer": 3
+        "question": "¿Cuáles son las ventajas de una aplicación construida utilizando inyección de dependencia?",
+        "choice1": "acoplamiento bajo",
+        "choice2": "alta cohesión",
+        "choice3": "alta legibilidad y facilidad de prueba",
+        "choice4": "todo lo anterior",
+        "answer": 4
     },
     {
         "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
@@ -256,52 +256,52 @@
         "answer": 1
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
-        "choice1": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "choice2": "@OptionsMapping",
-        "choice3": "@RequestOptions",
-        "choice4": "@OptionsRequest",
-        "answer": 1
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
-        "choice1": "@HeadRequest",
-        "choice2": "@HeadMapping",
-        "choice3": "@RequestHead",
-        "choice4": "@RequestMapping(method = RequestMethod.HEAD)",
+        "question": "¿Qué biblioteca es obligatoria para escribir pruebas unitarias para una aplicación Spring?",
+        "choice1": "spring-test",
+        "choice2": "cualquier biblioteca generadora simulada como jMock, Mockito o EasyMock",
+        "choice3": "Mockito",
+        "choice4": "Junit",
         "answer": 4
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
-        "choice1": "@TraceRequest",
-        "choice2": "@TraceMapping",
-        "choice3": "@RequestTrace",
-        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "question": "¿Cuándo se debe utilizar la inyección constructora?",
+        "choice1": "cuando el bean dependiente se puede crear sin sus dependencias",
+        "choice2": "al crear un bean inmutable que depende de otro bean",
+        "choice3": "cuando el tipo de bean que se está creando no admite otros tipos de inyección (ej., código heredado o de terceros)",
+        "choice4": "B y C son correctas",
         "answer": 4
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
-        "choice1": "@ConnectRequest",
-        "choice2": "@ConnectMapping",
-        "choice3": "@RequestConnect",
-        "choice4": "@RequestMapping(method = RequestMethod.CONNECT)",
-        "answer": 4
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",   
-        "choice1": "@RequestMapping",
-        "choice2": "@PatchMapping",
-        "choice3": "@PatchRequest",
-        "choice4": "@RequestPatch",
+        "question": "¿Qué sucede si un método anotado con @Transactional llama a otro método anotado con @Transactional en la misma instancia de objeto?",
+        "choice1": "se crea una transacción para cada método",
+        "choice2": "se crea una única transacción y los métodos se ejecutan como una única unidad de trabajo",
+        "choice3": "depende de la configuración de cada @Transactional",
+        "choice4": "los metodos no se ejecutan",
         "answer": 2
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
-        "choice1": "@OptionsRequest",
-        "choice2": "@OptionsMapping",
-        "choice3": "@RequestOptions",
-        "choice4": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "answer": 4
+        "question": "¿Cómo se pueden personalizar los datos expuestos por el endpoint /info?",
+        "choice1": "declarando un bean de tipo InfoIndicator",
+        "choice2": "configurando las propiedades info.* en el archivo application.yml o application.properties",
+        "choice3": "colocando un silenciador en el archivo application.yml o application.properties",
+        "choice4": "aplicando la propiedad silent-info.",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito de la anotación @Controller?",   
+        "choice1": "para indicar que el bean se encapsulará en un proxy web especial",
+        "choice2": "para indicar que la clase se usará como plantilla para crear un tipo especial de bean requerido en una aplicación web Spring para proporcionar métodos de control para solicitudes",
+        "choice3": "para declarar una clase como la clase de configuración para una aplicación web Spring",
+        "choice4": "para controlar la inyección de dependencias en una clase",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de las afirmaciones describe mejor las pruebas unitarias? ",
+        "choice1": "Las pruebas unitarias son una práctica de software que consiste en reemplazar dependencias con pequeñas unidades de código simulado durante las pruebas de aplicaciones.",
+        "choice2": "Las pruebas unitarias son una práctica de software que consiste en probar cómo pequeñas unidades individuales de código funcionan juntas en el mismo contexto.",
+        "choice3": "Las pruebas unitarias son una práctica de software que consiste en probar pequeñas unidades individuales de código de forma aislada.",
+        "choice4": "Las pruebas unitarias son trozos de codigo que se ejecutan en la nube",
+        "answer": 3
     },
     {
         "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
@@ -312,131 +312,131 @@
         "answer": 2
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
-        "choice1": "@TraceRequest",
-        "choice2": "@TraceMapping",
-        "choice3": "@RequestTrace",
-        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "question": "¿Qué significa ORM?",
+        "choice1": "Object Relational Mapping",
+        "choice2": "Object Relations Management",
+        "choice3": "Orthogonal Relations Management",
+        "choice4": "Origins Relations Mapping",
         "answer": 4
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
-        "choice1": "@ConnectMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
-        "choice3": "@RequestConnect",
-        "choice4": "@ConnectRequest",
+        "question": "¿Cuál es el propósito de la interfaz HealthIndicator?",
+        "choice1": "Los beans proporcionan información sobre los heart rates de la aplicación.",
+        "choice2": "Los beans Spring de tipos que la implementan proporcionan información de salud personalizada.",
+        "choice3": "Si se declara un punto final Spring que implementa esta interfaz, anulará el punto final /health.",
+        "choice4": "poder apreciar en tiempo real la salud de la aplicación",
         "answer": 2
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
-        "choice1": "@RequestMapping",
-        "choice2": "@PatchMapping",
-        "choice3": "@PatchRequest",
-        "choice4": "@RequestPatch",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
-        "choice1": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "choice2": "@OptionsMapping",
-        "choice3": "@RequestOptions",
-        "choice4": "@OptionsRequest",
-        "answer": 1
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
-        "choice1": "@HeadMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.HEAD)",
-        "choice3": "@RequestHead",
-        "choice4": "@HeadRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
-        "choice1": "@TraceRequest",
-        "choice2": "@TraceMapping",
-        "choice3": "@RequestTrace",
-        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
-        "answer": 4
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
-        "choice1": "@RequestConnect",
-        "choice2": "@ConnectMapping",
-        "choice3": "@RequestMapping(method = RequestMethod.CONNECT)",
-        "choice4": "@ConnectRequest",
+        "question": "¿Qué clase de la siguiente lista es el solucionador de vista predeterminado en Spring?",
+        "choice1": "JspResourceViewResolver",
+        "choice2": "ResourceViewResolver",
+        "choice3": "InternalResourceViewResolver",
+        "choice4": "PanelViewResolver",
         "answer": 3
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
-        "choice1": "@RequestPatch",
-        "choice2": "@RequestMapping",
-        "choice3": "@PatchRequest",
-        "choice4": "@PatchMapping",
-        "answer": 4
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
-        "choice1": "@OptionsMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "choice3": "@RequestOptions",
-        "choice4": "@OptionsRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
-        "choice1": "@RequestHead",
-        "choice2": "@HeadMapping",
-        "choice3": "@RequestMapping(method = RequestMethod.HEAD)",
-        "choice4": "@HeadRequest",
+        "question": "¿Qué significa AOP? ",
+        "choice1": "Programación orientada a asíncrona",
+        "choice2": "Paradigma de objeto de aspecto",
+        "choice3": "Programación orientada a aspectos",
+        "choice4": "Programación orientada a la abstracción",
         "answer": 3
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
-        "choice1": "@TraceRequest",
-        "choice2": "@TraceMapping",
-        "choice3": "@RequestTrace",
-        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "question": "¿Qué es un contexto de aplicación?",
+        "choice1": "cualquier instancia de una clase que implemente la interfaz ApplicationContext",
+        "choice2": "la representación del software del Spring IoC Container",
+        "choice3": "los medios para proporcionar información de configuración para una aplicación Spring",
+        "choice4": "A y C son correctas",
         "answer": 4
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
-        "choice1": "@ConnectMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
-        "choice3": "@RequestConnect",
-        "choice4": "@ConnectRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",  
-        "choice1": "@RequestMapping",
-        "choice2": "@PatchMapping",
-        "choice3": "@PatchRequest",
-        "choice4": "@RequestPatch",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
-        "choice1": "@OptionsMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "choice3": "@RequestOptions",
-        "choice4": "@OptionsRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
-        "choice1": "@RequestMapping(method = RequestMethod.HEAD)",
-        "choice2": "@HeadMapping",
-        "choice3": "@RequestHead",
-        "choice4": "@HeadRequest",
+        "question": "¿Cuándo se debe declarar una transacción como de solo lectura?",
+        "choice1": "cuando no incluye la ejecución de ninguna instrucción de escritura",
+        "choice2": "cuando se lee un gran conjunto de datos",
+        "choice3": "cuando no se deben permitir cambios en las bases de datos",
+        "choice4": "cuando no se requiere un bloqueo de escritura",
         "answer": 1
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",  
-        "choice1": "@TraceMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.TRACE)",
-        "choice3": "@RequestTrace",
-        "choice4": "@TraceRequest",
+        "question": "¿Dónde se puede utilizar la anotación @Profile?",
+        "choice1": "en un bean declarado con @Component o sus especializaciones",
+        "choice2": "en un bean declarado con @Bean",
+        "choice3": "en una clase @Configuration",
+        "choice4": "en todas las anteriores",
+        "answer": 4
+    },
+    {
+        "question": "Pregunta de Spring Boot: ¿Cuál de las siguientes afirmaciones es verdadera sobre la anotación @WebMvcTest?",
+        "choice1": "Esta anotación es la que se debe utilizar cuando una prueba se centra solo en componentes Spring MVC.",
+        "choice2": "Esta anotación tiene el efecto de deshabilitar la configuración automática y aplicar solo la configuración relevante para las pruebas MVC.",
+        "choice3": "Esta anotación se puede aplicar a una clase de prueba para habilitar y configurar la configuración automática de MockMvc.",
+        "choice4": "Todas las anteriores afirmaciones son verdaderas.",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué anotación declara un método de asesoramiento?",
+        "choice1": "@Aspect y @Advice",
+        "choice2": "@Before y @AfterReturning",
+        "choice3": "@Pointcut",
+        "choice4": "@Component",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de las siguientes afirmaciones sobre el escaneo de componentes es cierta?",
+        "choice1": "para habilitar el escaneo de componentes, se debe anotar una clase de configuración con @ComponentScan",
+        "choice2": "el escaneo de componentes está habilitado por la anotación @Configuration",
+        "choice3": "A y D son correctas",
+        "choice4": "@ComponentScan sin argumentos le dice al contenedor Spring IoC que escanee el paquete actual y todos sus subpaquetes.",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué es un contexto de persistencia?",
+        "choice1": "Un contexto que contiene un conjunto de entidades/objetos de dominio en el que por cada entidad persistente hay una instancia de entidad única.",
+        "choice2": "Un contexto de aplicación Spring específico para aplicaciones que utilizan bases de datos.",
+        "choice3": "Un contexto de aplicación Spring específico para aplicaciones que utilizan transacciones.",
+        "choice4": "Un contexto en el que se almacenan las entidades de una base de datos no relacional.",
+        "answer": 1
+    },
+    {
+        "question": "¿Para qué se utiliza la anotación @Value?",
+        "choice1": "para inyectar un valor escalar/literal que se inyectará en un campo",
+        "choice2": "para leer el valor de un campo",
+        "choice3": "para inyectar un valor estático",
+        "choice4": "para inyectar un valor de un archivo de propiedades",
+        "answer": 1
+    },
+    {
+        "question": "Al ejecutar una prueba Spring Boot MVC anotada con lo siguiente: @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT) ¿Cómo se puede recuperar el valor del puerto?",  
+        "choice1": "Declare una propiedad de entero local y anótela con @LocalServerPort",
+        "choice2": "Declare una propiedad de entero local y anótela con @TestServerPort",
+        "choice3": "Haga que la clase de prueba extienda SpringBootWebTest y llame a getLocalServerPort()",
+        "choice4": "haga que la clase de prueba extienda SpringBootTest y llame a postLocalServerPort()",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es cierto sobre el método de asesoramiento After? ",
+        "choice1": "No se ejecuta si la ejecución del método de destino finaliza generando una excepción.",
+        "choice2": "Se ejecuta despues del método asesorado independientemente del resultado.",
+        "choice3": "Puede atrapar la excepción del método de destino y lanzar una excepción diferente.",
+        "choice4": "Se ejecuta despues de try-catch",
+        "answer": 2
+    },
+    {
+        "question": "Tenemos la siguiente declaración de Bean. ¿Cuál es el ID del bean creado?\n@Bean\n\tDataSource prodDataSource()\n{\nreturn new DriverManagerDataSource();\n}",
+        "choice1": "dataSource",
+        "choice2": "driverManagerDataSource",
+        "choice3": "prodDataSource",
+        "choice4": "ninguna de las anteriores",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué significa MVC?",  
+        "choice1": "management versus control",
+        "choice2": "modelo-vista-controlador",
+        "choice3": "manejo de verbos de clases",
+        "choice4": "Modelo vista control",
         
         "answer": 2
     },
@@ -610,195 +610,195 @@
         "answer": 3
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
-        "choice1": "@PatchRequest",
-        "choice2": "@RequestMapping",  
-        "choice3": "@PatchMapping",
-        "choice4": "@RequestPatch",
+        "question": "¿Qué es la autenticación?",
+        "choice1": "el proceso de proteger los recursos",
+        "choice2": "el proceso de decidir si se debe permitir a un usuario acceder a un recurso",  
+        "choice3": "el proceso de verificar la validez de las credenciales del principal",
+        "choice4": "una medida de seguridad secundaria",
         "answer": 3
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",  
-        "choice1": "@OptionsMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "choice3": "@RequestOptions",
-        "choice4": "@OptionsRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
-        "choice1": "@RequestMapping(method = RequestMethod.HEAD)",
-        "choice2": "@HeadMapping",
-        "choice3": "@RequestHead",
-        "choice4": "@HeadRequest",
+        "question": "¿Cuál de las siguientes afirmaciones es cierta sobre los proxies Spring AOP?",  
+        "choice1": "Un objeto proxy implementa la interfaz que implementa el target, o es una subclase del mismo tipo del target.",
+        "choice2": "Un objeto proxy tiene alcance prototipo.",
+        "choice3": "Spring AOP utiliza proxies basados ​​en subclases de forma predeterminada.",
+        "choice4": "El objeto proxy es una instancia de la unidad de trabajo.",
         "answer": 1
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
-        "choice1": "@RequestMapping(method = RequestMethod.TRACE)",
-        "choice2": "@TraceMapping",
-        "choice3": "@RequestTrace",
-        "choice4": "@TraceRequest",
+        "question": "¿Cuál es la definición completa de un bean",
+        "choice1": "Un Objeto Java Plano y Antiguo (POJO)",
+        "choice2": "una instancia de una clase",
+        "choice3": "Un objeto que es instanciado, ensamblado y administrado por el contenedor de Spring IoC",
+        "choice4": "Es un Entreprise Java Bean (EJB)",
+        "answer": 3
+    },
+    {
+        "question": "¿Cuáles de los siguientes métodos son métodos HTTP?",
+        "choice1": "PUT",
+        "choice2": "GET",
+        "choice3": "OPTIONS",
+        "choice4": "Todos los anteriores",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué es REST?",
+        "choice1": "un patrón de diseño de software",
+        "choice2": "un marco de trabajo (framework) de Java",
+        "choice3": "un estilo de arquitectura de software",
+        "choice4": "un diseño que permite a la apicación web tomar un descanso",
+        "answer": 3
+    },
+    {
+        "question": "¿Qué es la autorización?", 
+        "choice1": "es el proceso de verificar la validez de las credenciales del principal",
+        "choice2": "el proceso de decidir si un usuario autenticado tiene permiso para realizar una determinada acción dentro de la aplicación",
+        "choice3": "el proceso de generar credenciales para un usuario",
+        "choice4": "el preoceso de verificar la validez de las credenciales del directorio activo",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la clase principal de Spring JDBC?",
+        "choice1": "EmbeddedDatabaseBuilder",
+        "choice2": "Repository",
+        "choice3": "DataSource",
+        "choice4": "JdbcTemplate",
+        "answer": 4
+    },
+    {
+        "question": "¿Cuál es la forma correcta de importar definiciones de beans de una clase de configuración a otra clase de configuración?",
+        "choice1": "@Import(DataSourceConfig.class)",
+        "choice2": "@Resource(DataSourceConfig.class)",
+        "choice3": "@ImportResource(DataSourceConfig.class)",
+        "choice4": "@ImportResource(DataBeanConfig.class)",
         "answer": 1
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
-        "choice1": "@RequestConnect",
-        "choice2": "@ConnectMapping",
-        "choice3": "@RequestMapping(method = RequestMethod.CONNECT)",
-        "choice4": "@ConnectRequest",
-        "answer": 3
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?", 
-        "choice1": "@RequestMapping",
-        "choice2": "@PatchMapping",
-        "choice3": "@PatchRequest",
-        "choice4": "@RequestPatch",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
-        "choice1": "@OptionsMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "choice3": "@RequestOptions",
-        "choice4": "@OptionsRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
-        "choice1": "@RequestHead",
-        "choice2": "@HeadMapping",
-        "choice3": "@RequestMapping(method = RequestMethod.HEAD)",
-        "choice4": "@HeadRequest",
-        "answer": 3
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
-        "choice1": "@RequestTrace",
-        "choice2": "@TraceMapping",
-        "choice3": "@RequestMapping(method = RequestMethod.TRACE)",
-        "choice4": "@TraceRequest",
-        "answer": 3
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?", 
-        "choice1": "@ConnectMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
-        "choice3": "@RequestConnect",
-        "choice4": "@ConnectRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
-        "choice1": "@PatchRequest",
-        "choice2": "@RequestMapping",
-        "choice3": "@PatchMapping",
-        "choice4": "@RequestPatch",
-        "answer": 3
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
-        "choice1": "@RequestOptions",
-        "choice2": "@OptionsMapping",
-        "choice3": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "choice4": "@OptionsRequest",
-        "answer": 3
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",   
-        "choice1": "@HeadMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.HEAD)",
-        "choice3": "@RequestHead",
-        "choice4": "@HeadRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
-        "choice1": "@RequestMapping(method = RequestMethod.TRACE)",
-        "choice2": "@TraceMapping",
-        "choice3": "@RequestTrace",
-        "choice4": "@TraceRequest",
+        "question": "¿Qué significa CRUD?",
+        "choice1": "Create, Read, Update, Delete",
+        "choice2": "Create, Remove, Update, Deploy",
+        "choice3": "Configure, Release, Upload, Deploy",
+        "choice4": "Created, Readed, Upgraded, Deleted",
         "answer": 1
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
-        "choice1": "@ConnectRequest",
-        "choice2": "@ConnectMapping",
-        "choice3": "@RequestConnect",
-        "choice4": "@RequestMapping(method = RequestMethod.CONNECT)",
-        "answer": 4
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",   
-        "choice1": "@RequestMapping",
-        "choice2": "@PatchMapping",
-        "choice3": "@PatchRequest",
-        "choice4": "@RequestPatch",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
-        "choice1": "@OptionsRequest",
-        "choice2": "@OptionsMapping",
-        "choice3": "@RequestOptions",
-        "choice4": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "answer": 4
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
-        "choice1": "@HeadRequest",
-        "choice2": "@HeadMapping",
-        "choice3": "@RequestHead",
-        "choice4": "@RequestMapping(method = RequestMethod.HEAD)",
-        "answer": 4
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",   
-        "choice1": "@TraceMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.TRACE)",
-        "choice3": "@RequestTrace",
-        "choice4": "@TraceRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
-        "choice1": "@ConnectMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
-        "choice3": "@RequestConnect",
-        "choice4": "@ConnectRequest",
-        "answer": 2
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
-        "choice1": "@PatchRequest",
-        "choice2": "@RequestMapping",
-        "choice3": "@PatchMapping",
-        "choice4": "@RequestPatch",
-        "answer": 3
-    },
-    {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
-        "choice1": "@RequestMapping(method = RequestMethod.OPTIONS)",
-        "choice2": "@OptionsMapping",
-        "choice3": "@RequestOptions",
-        "choice4": "@OptionsRequest",
+        "question": "¿Qué no es cierto acerca de Spring Boot?", 
+        "choice1": "Spring Boot simplifica la configuración, pero complica la implementación",
+        "choice2": "Cada versión de Spring Boot proporciona una lista seleccionada de dependencias que soporta",
+        "choice3": "Spring Boot es una colección de conjuntos preconfigurados de marcos/ tecnologías diseñados para reducir la configuración repetitiva",
+        "choice4": "Spring Boot Actuator proporciona endpoints para monitorear y gestionar la aplicación en tiempo de ejecución, incluyendo métricas, estado de salud, configuración, etc.",
         "answer": 1
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
-        "choice1": "@HeadRequest",
-        "choice2": "@HeadMapping",
-        "choice3": "@RequestHead",
-        "choice4": "@RequestMapping(method = RequestMethod.HEAD)",
+        "question": "¿Qué se puede decir sobre la seguridad de las aplicaciones?",
+        "choice1": "no es necesaria.",
+        "choice2": "debería proporcionarse mediante frameworks de terceros.",
+        "choice3": "es una preocupación transversal",
+        "choice4": "es algo secundario en una aplicación web",
+        "answer": 3
+    },
+    {
+        "question": "¿Cuál es la interfaz principal utilizada para proporcionar acceso a una base de datos?",
+        "choice1": "DataSource",
+        "choice2": "Connection",
+        "choice3": "JdbcTemplate",
+        "choice4": "NamedParameterJdbcTemplate",
+        "answer": 1
+    },
+    {
+        "question": "Pregunta de Spring Boot ¿@SpringBootConfiguration es una especialización de @Configuration?",   
+        "choice1": "True",
+        "choice2": "False",
+        "choice3": "Leo Messi",
+        "choice4": "Cristiano Ronaldo",
+        "answer": 1
+    },
+    {
+        "question": "¿Cuáles de los siguientes métodos HTTP son o pueden considerarse idempotentes?",
+        "choice1": "PUT",
+        "choice2": "GET",
+        "choice3": "DELETE",
+        "choice4": "Todos los anteriores",
         "answer": 4
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
-        "choice1": "@TraceRequest",
-        "choice2": "@TraceMapping",
-        "choice3": "@RequestTrace",
-        "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+        "question": "¿Cuál de las siguientes anotaciones permite la configuración automática del contexto de aplicación Spring, adivinando los beans necesarios para crear una aplicación Spring Boot?",
+        "choice1": "@SpringBootConfiguration",
+        "choice2": "@ConfigurationPropertiesScan",
+        "choice3": "@EnableAutoConfiguration",
+        "choice4": "@AllowAutoConfiguration",
+        "answer": 3
+    },
+    {
+        "question": "El uso de comparadores de ant para proteger las URL es más seguro que el uso de taglibs. ¿Verdadero o falso?",   
+        "choice1": "True",
+        "choice2": "False",
+        "choice3": "Bad Bunny",
+        "choice4": "J Balvin",
+        "answer": 2
+    },
+    {
+        "question": "¿Qué tipo de declaración SQL se puede ejecutar con JdbcTemplate?",
+        "choice1": "declaraciones DDL y DML de SQL simple",
+        "choice2": "Declaraciones SpEL",
+        "choice3": "Declaraciones de procedimientos almacenados",
+        "choice4": "Todo lo anterior",
+        "answer": 1
+    },
+    {
+        "question": "Dada la siguiente declaración de clase test, \n@RunWith(SpringRunner.class)\n@ContextConfiguration\npublic class SimpleTest {\n//test methods here\n}\n\tCual de las siguientes afirmaciones es verdadera?",
+        "choice1": "Las pruebas se ejecutarán en un motor JUnit 4. ",
+        "choice2": "Las pruebas se ejecutarán en un motor JUnit 5.",
+        "choice3": "Las pruebas se ejecutarán en un motor JUnit que se encuentra en el class path.",
+        "choice4": "Las pruebas se ejecutaran unicamente en tu disco duro",
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se puede decir sobre la anotación @RestController?",   
+        "choice1": "Se utiliza para declarar un controlador que proporciona servicios REST.",
+        "choice2": "Se anota con @Controller y @ResponseBody.",
+        "choice3": "Los métodos de los controladores anotados con esta anotación asumen la semántica de @ResponseStatus de manera predeterminada.",
+        "choice4": "Las opciones A y B son correctas.",
+        "answer": 4
+    },
+    {
+        "question": "¿Qué significa REST?",
+        "choice1": "Reliant Stable Transfer",
+        "choice2": "Representational State Transfer",
+        "choice3": "Reactive Stable Transfer",
+        "choice4": "Resilient State Transfer",
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el nombre predeterminado del filtro de seguridad de Spring que se aplica a todas las solicitudes en una aplicación web Spring segura?",
+        "choice1": "springSecurityFilter",
+        "choice2": "springSecurityFilterChain",
+        "choice3": "delegatingFilterProxy",
+        "choice4": "springWebSecurityFilter",
+        "answer": 2
+    },
+    {
+        "question": "¿Cómo se define una transacción en el desarrollo de software?",
+        "choice1": "Una transacción es un grupo de acciones que deben realizarse como si fueran una única acción masiva.",
+        "choice2": "Una transacción representa un contrato entre dos componentes. facilitando el intercambio de datos.",
+        "choice3": "Una transacción es un concepto abstracto que se utiliza para describir conexiones a la base de datos.",
+        "choice4": "Una transacción es simplemente un bloque de código que se ejecuta en un solo hilo.",
+        "answer": 1
+    },
+    {
+        "question": "La clase SpringJUnit4ClassRunner mejora una clase de prueba JUnit 4 con contexto Spring.",
+        "choice1": "True",
+        "choice2": "False",
+        "choice3": "Dua Lipa",
+        "choice4": "Ariana Grande",
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes métodos RestTemplate se puede utilizar para realizar una llamada GET REST?",
+        "choice1": "restTemplate.getForObject(...)",
+        "choice2": "getForEntity(...)",
+        "choice3": "exchange(..., HttpMethod.GET,...)",
+        "choice4": "Todos los anteriores",
         "answer": 4
     },
     {
@@ -810,12 +810,12 @@
         "answer": 1
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
-        "choice1": "@RequestPatch",
-        "choice2": "@RequestMapping",
-        "choice3": "@PatchRequest",
-        "choice4": "@PatchMapping",
-        "answer": 4
+        "question": "¿Cuál es el efecto de anotar un método con @Secured(\"ROLE_ADMIN\")?",
+        "choice1": "se define una lista de atributos de configuración de seguridad para el método",
+        "choice2": "en una aplicación segura de Spring con la seguridad de método habilitada, el acceso para llamar a ese método está restringido a los usuarios con el rol ROLE_ADMIN",
+        "choice3": "en una aplicación segura de Spring, donde @EnableGlobalMethodSecurity(securedEnabled = true) se usa en una clase de configuración, hace que la clase que contiene el método se envuelva en un proxy seguro para restringir el acceso solo a los usuarios con el rol ROLE_ADMIN",
+        "choice4": "Se define un punto final de seguridad para el método",
+        "answer": 3
     },
     {
         "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
@@ -826,19 +826,19 @@
         "answer": 3
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",  
-        "choice1": "@HeadMapping",
-        "choice2": "@RequestMapping(method = RequestMethod.HEAD)",
-        "choice3": "@RequestHead",
-        "choice4": "@HeadRequest",
+        "question": "¿Para qué se utiliza @ContextConfiguration?",  
+        "choice1": "para cargar y configurar una instancia de TestApplicationContext",
+        "choice2": "para cargar y configurar un ApplicationContext para pruebas de integración",
+        "choice3": "para inyectar beans utilizados en pruebas unitarias",
+        "choice4": "para cargar y configurar un full injection context",
         "answer": 2
     },
     {
-        "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
-        "choice1": "@RequestTrace",
-        "choice2": "@TraceMapping",
-        "choice3": "@RequestMapping(method = RequestMethod.TRACE)",
-        "choice4": "@TraceRequest",
+        "question": "¿Cuál de las siguientes afirmaciones es verdadera sobre RestTemplate y TestRestTemplate?",
+        "choice1": "Ambas implementaciones se pueden utilizar para pruebas de integración.",
+        "choice2": "TestRestTemplate es una alternativa conveniente para RestTemplate proporcionada por Spring Boot.",
+        "choice3": "TestRestTemplate expone la misma API que RestTemplate y puede llevar encabezados de autenticación básicos.",
+        "choice4": "Todas las anteriores afirmaciones son verdaderas.",
         "answer": 3
     },
     {
