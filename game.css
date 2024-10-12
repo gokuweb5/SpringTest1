@@ -80,3 +80,10 @@
       transform: rotate(360deg);
     }
   }
+#timer {
+    font-size: 2em; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+    color: #ff0000; /* Color rojo para mayor visibilidad */
+    text-align: center; /* Centrar el texto */
+    margin: 20px 0; /* Espaciado superior e inferior */
+  }
